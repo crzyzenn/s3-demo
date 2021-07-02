@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import UploadImage from './components/UploadImage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UploadImage />
     </div>
   );
 }
 
 export default App;
+
+
+// Deployment....
+// Domain...
+// www.mydomain.com.. // frontend...
+// backend.mydomain.com // backend...
+// https://kirillibrahim.medium.com/gray-area-on-when-to-use-different-rendering-modes-csr-ssr-ssg-214a636a24a4
+
+
